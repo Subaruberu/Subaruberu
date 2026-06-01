@@ -58,9 +58,23 @@ Sou apaixonado por transformar dados em soluções funcionais. Gosto de construi
 
 ## 📊 GitHub Stats
 
+<!--
+  Estes cards são gerados pela GitHub Action "GitHub-Profile-Summary-Cards"
+  e ficam salvos na pasta profile-summary-card-output/ do seu repositório.
+  Eles só vão aparecer DEPOIS que a Action rodar pela primeira vez.
+  Para mudar o visual, troque "nord_dark" pelo tema desejado
+  (ex.: dracula, monokai, github_dark, nord_bright).
+-->
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Subaruberu&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Subaruberu&layout=compact&theme=tokyonight" />
+  <img src="./profile-summary-card-output/nord_dark/0-profile-details.svg" width="100%" />
+</p>
+<p align="center">
+  <img src="./profile-summary-card-output/nord_dark/3-stats.svg" />
+  <img src="./profile-summary-card-output/nord_dark/4-productive-time.svg" />
+</p>
+<p align="center">
+  <img src="./profile-summary-card-output/nord_dark/1-repos-per-language.svg" />
+  <img src="./profile-summary-card-output/nord_dark/2-most-commit-language.svg" />
 </p>
 
 ---
@@ -68,3 +82,30 @@ Sou apaixonado por transformar dados em soluções funcionais. Gosto de construi
 <p align="center">
   <i>「七転び八起き」 — Cair sete vezes, levantar oito.</i>
 </p>
+
+
+name: GitHub-Profile-Summary-Cards
+
+on:
+  schedule:
+    # Roda todo dia às 03:00 UTC (00:00 em São Paulo)
+    - cron: "0 3 * * *"
+  workflow_dispatch:        # permite rodar manualmente pela aba "Actions"
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-summary-cards
+    permissions:
+      contents: write       # necessário para a Action commitar os cards no repo
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          UTC_OFFSET: -3      # fuso de São Paulo
