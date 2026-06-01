@@ -4,58 +4,55 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Mount_Fuji_banner_Fuji_and_cherry_blossoms.png" alt="Mount Fuji and cherry blossoms" width="100%" />
 </p>
 
-<!-- TÍTULO ANIMADO (troque o texto na URL se quiser) -->
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=F75C28&center=true&vCenter=true&width=600&lines=Hey+there%2C+I'm+Willian!+%F0%9F%91%8B;Aspiring+Data+Scientist;%E5%88%9D%E3%82%81%E3%81%BE%E3%81%97%E3%81%A6+%7C+Nice+to+meet+you" alt="Typing SVG" />
-</h1>
+# Olá! Eu sou o Willian Dias 👋
 
-<!-- BADGES SOCIAIS -->
-<p align="center">
+**Estudante de Ciência de Dados na PUC-SP | Entusiasta de IA & Machine Learning**
+
+Sou apaixonado por transformar dados em soluções funcionais. Gosto de construir projetos **de ponta a ponta** — da coleta e limpeza dos dados, passando pela modelagem com Machine Learning, até a entrega de uma aplicação que qualquer pessoa consiga usar. Atualmente aprofundo meus estudos em Data Science, estatística e aprendizado de máquina, com foco em análise de dados, modelos preditivos e algoritmos de otimização.
+
+<p align="left">
   <a href="mailto:Willian.fer.dias01@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
-  <!-- Adicione seu LinkedIn / outros aqui -->
+  <!-- Troque SEU-USUARIO pelo seu LinkedIn, ou remova esta linha -->
   <a href="https://www.linkedin.com/in/SEU-USUARIO/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=Subaruberu&style=for-the-badge&color=F75C28&label=Profile+Views" alt="Profile views" />
 </p>
 
 ---
 
-## 🧑‍💻 About Me
+## 🛠️ Stack Tecnológico
 
-```python
-class Willian:
-    def __init__(self):
-        self.role        = "Aspiring Data Scientist"
-        self.learning    = ["Python", "Statistics", "Pandas", "Machine Learning"]
-        self.working_on  = "a secret project 🤫"
-        self.pronouns    = "He / Him"
-        self.fun_fact    = "I love Japanese culture 🏯"
-```
-
-- 🔭 &nbsp;Currently working on **a secret project**
-- 🌱 &nbsp;Currently learning the foundations of **Data Science**
-- 💬 &nbsp;Ask me about **Python & data analysis**
-- 📫 &nbsp;Reach me at **Willian.fer.dias01@gmail.com**
-- 😄 &nbsp;Pronouns: **He / Him**
+- **Linguagens:** Python, SQL
+- **Análise & Visualização de Dados:** Pandas, NumPy, Power BI, Excel
+- **Machine Learning:** Scikit-learn, K-means (clusterização), modelos de classificação e probabilidade
+- **Ferramentas & Deploy:** Jupyter Notebook, Streamlit, Git & GitHub
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Projetos em Destaque
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-</p>
+### 🎮 League-Bet — Calculadora de Winrate de Times de LoL
+*Aplicação end-to-end de análise de dados e probabilidade aplicada a e-sports.*
 
-> 💡 Remova ou adicione badges conforme as ferramentas que você realmente usa.
+- **Tecnologias:** Python, Pandas, Scikit-learn, Streamlit, Jupyter Notebook.
+- **O que faz:** Calcula a probabilidade de vitória de times profissionais de *League of Legends* a partir de dados de campeonatos (ex.: LCK). Cobre todo o fluxo: tratamento dos dados, a lógica de cálculo de winrate e o **deploy de uma aplicação web interativa**, na qual o usuário escolhe os times e recebe a previsão na hora. Projeto desenvolvido para a faculdade.
+- 🎥 [Vídeo de explicação](https://youtu.be/Wa0BgrfjaUw) &nbsp;·&nbsp; 🌐 [App online (Streamlit)](https://league-tigrinho-da-silva.streamlit.app/) &nbsp;·&nbsp; 📂 [Repositório](https://github.com/Subaruberu/League-bett)
+
+### 🗺️ PucTSP — Problema do Caixeiro Viajante
+*Projeto acadêmico de otimização e algoritmos (PUC-SP — 3º semestre).*
+
+- **Tecnologias:** Python, Jupyter Notebook.
+- **O que faz:** Implementa e analisa soluções para o clássico **Problema do Caixeiro Viajante (TSP)** — encontrar a rota de menor custo que passa por todos os pontos exatamente uma vez. Um exercício prático de pensamento algorítmico e otimização combinatória, com a comparação dos resultados obtidos.
+- 🎥 [Vídeo de explicação](https://www.youtube.com/watch?v=5pLqqOqKu2s) &nbsp;·&nbsp; 📂 [Repositório](https://github.com/Subaruberu/TSP)
+
+### 🎧 Spotify K-means — Clusterização de Músicas
+*Aprendizado não supervisionado aplicado a dados musicais.*
+
+- **Tecnologias:** Python, Pandas, Scikit-learn (K-means), Jupyter Notebook.
+- **O que faz:** Aplica o algoritmo **K-means** para agrupar faixas do dataset do Spotify (2023) em segmentos/playlists com características sonoras parecidas, explorando padrões nos atributos das músicas (como dançabilidade, energia e BPM). Projeto desenvolvido para a faculdade.
+- 📂 [Repositório](https://github.com/Subaruberu/Spotify-K-means)
 
 ---
 
@@ -66,12 +63,8 @@ class Willian:
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Subaruberu&layout=compact&theme=tokyonight" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Subaruberu&theme=tokyonight" alt="GitHub Streak" />
-</p>
-
 ---
 
 <p align="center">
-  <i>「七転び八起き」 — Fall down seven times, stand up eight.</i>
+  <i>「七転び八起き」 — Cair sete vezes, levantar oito.</i>
 </p>
