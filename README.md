@@ -55,6 +55,7 @@ Sou apaixonado por transformar dados em soluções funcionais. Gosto de construi
 - 📂 [Repositório](https://github.com/Subaruberu/Spotify-K-means)
 
 ---
+## Contatos
 
-Linkedin: https://www.linkedin.com/in/willian-fernandes-dias/
-email: willianfernandes.dev@gmail.com
+- **Linkedin:** https://www.linkedin.com/in/willian-fernandes-dias/ 
+- **email:** willianfernandes.dev@gmail.com
