@@ -1,6 +1,7 @@
-<!-- BANNER -->
+<!-- BANNER (Monte Fuji + cerejeiras) -->
+<!-- Imagem: Wikimedia Commons, licença CC BY 3.0 -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Subaruberu/Subaruberu/main/assets/torii.jpg" alt="Fushimi Inari Torii" width="100%" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Mount_Fuji_banner_Fuji_and_cherry_blossoms.png" alt="Mount Fuji and cherry blossoms" width="100%" />
 </p>
 
 <!-- TÍTULO ANIMADO (troque o texto na URL se quiser) -->
